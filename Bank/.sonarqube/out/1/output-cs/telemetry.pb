@@ -1,0 +1,1 @@
+ºR£C:\Users\carus\OneDrive\Escritorio\Calidad y Pruebas de Software Labs\Lab 1 U1\lab-2025-i-cps-u1-01-csharp-Draigo15\Bank\Bank.WebApi.Tests\Bank.WebApi.Tests.csproj¢net8.0òCSharp12

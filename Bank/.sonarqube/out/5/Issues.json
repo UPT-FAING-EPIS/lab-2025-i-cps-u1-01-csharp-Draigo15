@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.12.0.0",
+        "fileVersion": "4.12.0-3.24570.6 (913fb4ec)",
+        "semanticVersion": "4.12.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carus/OneDrive/Escritorio/Calidad%20y%20Pruebas%20de%20Software%20Labs/Lab%201%20U1/lab-2025-i-cps-u1-01-csharp-Draigo15/Bank/Bank.WebApi.Tests/BanckAccountTests.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 13,
+                  "endLine": 22,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "True",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2005",
+          "level": "warning",
+          "message": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carus/OneDrive/Escritorio/Calidad%20y%20Pruebas%20de%20Software%20Labs/Lab%201%20U1/lab-2025-i-cps-u1-01-csharp-Draigo15/Bank/Bank.WebApi.Tests/BanckAccountTests.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 13,
+                  "endLine": 39,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "True",
+              "IsGenericMethod": "False",
+              "ModelName": "AreEqual"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "NUnit2005": {
+          "id": "NUnit2005",
+          "shortDescription": "Consider using Assert.That(actual, Is.EqualTo(expected)) instead of Assert.AreEqual(expected, actual)",
+          "fullDescription": "Consider using the constraint model, Assert.That(actual, Is.EqualTo(expected)), instead of the classic model, Assert.AreEqual(expected, actual).",
+          "defaultLevel": "warning",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit2005.md",
+          "properties": {
+            "category": "Assertion",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}
